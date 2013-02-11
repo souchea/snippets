@@ -1,0 +1,1 @@
+let is_close (first, last, promotion, close) = close

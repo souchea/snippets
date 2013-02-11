@@ -1,0 +1,5 @@
+let rec fib a = match a with
+    | 0			-> 0
+    | 1			-> 1
+    | a when a < 0	-> -1
+    | _			-> (fib (a - 1)) + (fib (a - 2))

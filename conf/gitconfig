@@ -2,6 +2,9 @@
 	name = Aurelien Souchet
 	email = souchet.aurelien@gmail.com
 
+[github]
+	user = souchea
+
 [color]
 	status = auto
 	branch = auto

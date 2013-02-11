@@ -1,0 +1,1 @@
+let get_first_name (first, last, promotion, close) = first
