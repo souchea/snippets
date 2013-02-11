@@ -1,0 +1,61 @@
+
+;;
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+;; show line number
+(require 'linum)
+(global-linum-mode t)
+
+;; Display time
+(display-time-mode t)
+
+;; highlight selection
+(transient-mark-mode t)
+
+;; thin green cursor
+(setq default-frame-alist '((cursor-type . (bar . 2))))
+(set-cursor-color "green")
+
+;; case-insensitive minibuffer completion
+(setq read-buffer-completion-ignore-case t)
+(setq read-file-name-completion-ignore-case t)
+
+(cond ((fboundp 'global-font-lock-mode)
+       ;; Customize face attributes
+       (setq font-lock-face-attributes
+             ;; Symbol-for-Face Foreground Background Bold Italic Underline
+             '((font-lock-comment-face       "goldenrod1")
+               (font-lock-string-face        "Sienna")
+               (font-lock-keyword-face       "RoyalBlue")
+               (font-lock-function-name-face "Blue")
+               (font-lock-variable-name-face "pink")
+               (font-lock-builtin-face	     "DarkOrange1")
+               (font-lock-type-face          "green")
+               (font-lock-reference-face     "Purple")
+               ))
+       ;; Load the font-lock package.
+       (require 'font-lock)
+       ;; Maximum colors
+       (setq font-lock-maximum-decoration t)
+       ;; Turn on font-lock in all modes that support it      
+       (global-font-lock-mode t)))
+
+
+(set-face-background 'region "Purple") ; Set region background color
+(set-background-color        "Blue") ; Set emacs bg color 
+
+; loads ruby mode when a .rb file is opened.
+(autoload 'ruby-mode "ruby-mode" "Major mode for editing ruby scripts." t)
+(setq auto-mode-alist  (cons '(".rb$" . ruby-mode) auto-mode-alist))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; append-tuareg.el - Tuareg quick installation: Append this file to .emacs.
+
+;;(add-to-list 'auto-mode-alist '("\\.ml[iylp]?" . tuareg-mode))
+;;(autoload 'tuareg-mode "tuareg" "Major mode for editing Caml code" t)
+;;(autoload 'camldebug "camldebug" "Run the Caml debugger" t)
+;;(dolist (ext '(".cmo" ".cmx" ".cma" ".cmxa" ".cmi"))
+;;  (add-to-list 'completion-ignored-extensions ext))
+;;(load "~/.emacs.d/tuareg.el")

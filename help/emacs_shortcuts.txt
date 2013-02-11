@@ -1,0 +1,70 @@
+##
+## emacs_shortcuts.txt for emacs in /home/souche_a/
+## 
+## Made by aurelien souchet
+## Login   <souche_a@epitech.net>
+## 
+## Started on  Tue Oct  2 00:53:03 2012 aurelien souchet
+## Last update Tue Oct  2 00:55:46 2012 aurelien souchet
+##
+
+Basics:
+
+	Ctrl-x Ctrl-s		Save
+	Ctrl-x Ctrl-w		change name
+	Ctrl-x Ctrl-c		Close
+	Ctrl-k			Erase line
+	Ctrl-y			Paste line(s)
+
+	Ctrl-c Ctrl-h		Write an EPITECH header
+
+	Ctrl-z			Put on background (then write "fg" on shell to put it back)
+
+	Ctrl-_			Step Backward
+	
+	Meta-i			make a tabulation
+
+
+Moving:
+	Meta-m			Move to the beginning of code line
+	Ctrl-a			Move to the beggining of the line
+	Ctrl-e			Move to the end of the line
+	(Ctrl-)Meta-a		Move to the beggining of the function
+	(Ctrl-)Meta-e		Move to the end of the function
+	Ctrl-l			Center the page on the cursor
+	Meta-x "goto-line"
+		Enter X		Move to line X
+	
+
+Exchange:
+	Meta-t			Exchange 2 words
+	Ctrl-t			Exchange 2 characters
+	Ctrl-x Ctrl-t		Exchange 2 lines
+
+Search:
+	Ctrl-s			Simple research
+
+Command:
+	Meta-x "shell"		Enter shell mode
+	Meta-x "man"
+		Enter X		See X man pages
+
+Indentation:	
+	Ctrl-Meta-\		Indent region
+	Ctrl-c Ctrl-Q		Indent function
+
+Comment:
+	Meta-j			New comment line
+	Meta-;			Create new comment
+	Ctrl-x ;		
+
+Mark:
+	 Ctrl-x h		Mark whole buffer
+	 Ctrl-Meta-h		Mark whole function
+
+Help:
+	Ctrl-h r		Manual
+	Ctrl-h F		Manual 
+	Ctrl-h K		Manual key
+	Ctrl-h k		Manual
+	Ctrl-h f		Manual function
