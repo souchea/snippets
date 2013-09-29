@@ -3,7 +3,7 @@
 #
 
 # Modules
-# see www.ruby-doc.org/core/classes/Modiule.html
+# see www.ruby-doc.org/core/classes/Module.html
 
 module Dice # module definition
   def roll
