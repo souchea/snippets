@@ -11,7 +11,7 @@ module Dice # module definition
   end
 end
 
-#creation of class than uses a module
+#creation of class that uses a module
 require 'dice'
 
 class Game
