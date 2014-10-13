@@ -1,0 +1,24 @@
+
+
+	Shift+Esc		fermer la fenetre active
+	Alt+(Shift)+F6  passer d'une fenetre a une autre
+
+	Ctrl+Q 			Quick Launch
+	Ctrl+; 			Search solution explorer
+	Ctrl+E 			Search solution in any window
+
+	Shift+Alt 		Focus toolbar on tool window
+
+	Ctrl+Alt+L 		Display Solution explorer
+
+	Ctrl+(Shift)+- 	Navigate Backwards (Forward)
+
+	F12 			Go to definition
+	Alt+F12 		Code Peek
+	Shift+F12 		Find all references
+
+	(Shift)F8 		Cycle through result in list window
+	Ctrl+, 			Navigate To
+
+	Ctrl+Tab 		Navigate through file
+	Ctrl+Alt+Down 	(same as ctrl-tab but with dropdown)
