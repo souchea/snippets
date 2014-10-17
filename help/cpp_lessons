@@ -1,0 +1,61 @@
+ABSTRACT CLASS & INTERFACE
+	
+	Pure method
+		Definition
+			Non-implementable method
+			Prevent the class from being instanciated
+			Inheritable
+			Created a contract
+		Example
+
+	Abstract class
+		Definition
+			Class with at least one pure method
+			Cannot be instanciated
+			Can contain attributes, member functions, methods ...
+			Defines a contract, but still implements some behaviors
+			Used to manipulate child types
+		Example
+
+	Interface
+		Definition
+			Special case of abstract class
+			Class which contains only pure methods (and types), No attributes
+			Exception: virtual destrictor
+			Cannot be instanciated
+			Only role: defining a contract
+
+		Example
+
+
+CLASS TEMPLATE
+	
+	Function template
+
+	Implicit template call
+
+	Class template
+		What we need
+		Any idea
+		Vocabulary
+
+	Multiple parameters
+
+	Default values
+
+
+CONST 
+
+	Review
+		Mechanism
+		Examples
+
+	The const keyword in C++
+		Constant member functions
+		Const and class instance
+
+	Going further
+		The mutable keyword
+		Replacing #define
+
+	Examples
